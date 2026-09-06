@@ -1,0 +1,50 @@
+{
+  "name": "link-rot-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build:ui": "vite build",
+    "build": "tsc && vite build",
+    "sample": "npx tsx src/crawler.ts",
+    "analyze": "npx tsx src/analyzer.ts",
+    "inspect": "npx tsx src/inspector.ts",
+    "verify-live": "npx tsx src/live-verifier.ts",
+    "wayback": "npx tsx src/wayback-client.ts",
+    "server": "npx tsx src/server.ts",
+    "start": "npx tsx src/server.ts",
+    "test": "playwright test",
+    "test:server": "playwright test tests/server.test.ts"
+  },
+  "keywords": [],
+  "author": "Carlos Araya (https://publishing-project.rivendellweb.net)",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.5-r.4",
+    "d3": "^7.9.0",
+    "lucide-react": "^1.41.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "overrides": {
+    "cacache": "21.0.1",
+    "node-gyp": "13.0.2"
+  },
+  "allowScripts": {
+    "duckdb@1.4.4": true
+  }
+}
