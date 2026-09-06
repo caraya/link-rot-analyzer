@@ -20,7 +20,7 @@ export interface WaybackResult {
 }
 
 const DEFAULT_USER_AGENT =
-  "LinkRotAnalyzer/1.0 (Research Tool; +https://github.com/carlos/link-rot-analyzer)";
+  "LinkRotAnalyzer/1.0 (Research Tool; +https://github.com/caraya/link-rot-analyzer)";
 
 function parseWaybackTimestamp(ts: string): string {
   if (ts.length < 14) return ts;

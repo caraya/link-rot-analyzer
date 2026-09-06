@@ -209,7 +209,12 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         }
 
         if (cohortFilter) {
-          filtered = filtered.filter((u) => u.initialCrawlYear === cohortFilter);
+          filtered = filtered.filter(
+            (u) =>
+              u.initialCrawlYear === cohortFilter ||
+              (u.statusByYear[cohortFilter]?.fetchStatus !== null &&
+                u.statusByYear[cohortFilter]?.fetchStatus !== undefined)
+          );
         }
 
         const totalItems = filtered.length;

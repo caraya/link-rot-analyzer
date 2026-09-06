@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import type { Server } from "node:http";
 import { createServer, computeTldMetrics, computeDomainMetrics } from "../src/server.js";
-import type { AnalysisResult } from "../src/analyzer.js";
+import { classifyUrlRotStatus, isSuccessStatus, type AnalysisResult } from "../src/analyzer.js";
 
 const mockAnalysisData: AnalysisResult = {
   summary: {
@@ -125,5 +125,47 @@ test.describe("Phase 4 API Server Endpoints", () => {
 
     const domains = computeDomainMetrics(mockAnalysisData.urls);
     expect(domains).toHaveLength(3);
+  });
+
+  test("classifyUrlRotStatus implements Link Rot Criteria (lines 50-71)", () => {
+    const cohortYears = [2018, 2021, 2024];
+
+    // Helper check
+    expect(isSuccessStatus(200)).toBe(true);
+    expect(isSuccessStatus(304)).toBe(true);
+    expect(isSuccessStatus(404)).toBe(false);
+    expect(isSuccessStatus(null)).toBe(false);
+
+    // Rule 2: All crawls return network errors / 404s / null -> DEAD (isCurrentlyRotted = true)
+    const allDead = {
+      2018: { crawlId: "CC1", fetchStatus: 404 },
+      2021: { crawlId: "CC2", fetchStatus: null },
+      2024: { crawlId: "CC3", fetchStatus: 500 },
+    };
+    expect(classifyUrlRotStatus(allDead, cohortYears)).toBe(true);
+
+    // Rule 3: Latest crawl is 200/304 while previous indicates errors -> ALIVE (isCurrentlyRotted = false)
+    const recovered = {
+      2018: { crawlId: "CC1", fetchStatus: 404 },
+      2021: { crawlId: "CC2", fetchStatus: 500 },
+      2024: { crawlId: "CC3", fetchStatus: 200 },
+    };
+    expect(classifyUrlRotStatus(recovered, cohortYears)).toBe(false);
+
+    // Rule 4: Latest crawl is 404 while previous indicated success -> DEAD (isCurrentlyRotted = true)
+    const rottedLater = {
+      2018: { crawlId: "CC1", fetchStatus: 200 },
+      2021: { crawlId: "CC2", fetchStatus: 200 },
+      2024: { crawlId: "CC3", fetchStatus: 404 },
+    };
+    expect(classifyUrlRotStatus(rottedLater, cohortYears)).toBe(true);
+
+    // 200 OK throughout -> ALIVE (isCurrentlyRotted = false)
+    const alwaysAlive = {
+      2018: { crawlId: "CC1", fetchStatus: 200 },
+      2021: { crawlId: "CC2", fetchStatus: 200 },
+      2024: { crawlId: "CC3", fetchStatus: 304 },
+    };
+    expect(classifyUrlRotStatus(alwaysAlive, cohortYears)).toBe(false);
   });
 });

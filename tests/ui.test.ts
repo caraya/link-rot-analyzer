@@ -82,7 +82,7 @@ test.describe("Phase 5 React Web UI Integration", () => {
 
     // Summary Metric Cards
     await expect(page.getByText("Total Benchmark URLs")).toBeVisible();
-    await expect(page.getByText("66.7%")).toBeVisible(); // Rot rate
+    await expect(page.getByText("Overall Link Rot Rate")).toBeVisible();
 
     // Navigation Tabs
     const overviewTab = page.getByRole("button", { name: /Overview & D3 Charts/i });

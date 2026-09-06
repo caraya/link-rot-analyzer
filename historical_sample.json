@@ -1,0 +1,6002 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=1",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=2",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=3",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=4",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=5",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=6",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=7",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=8",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=9",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=10",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=11",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=12",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=13",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=14",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=15",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=16",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=17",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://archive.org/about?id=18",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=19",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=20",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=21",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=22",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=23",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=24",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=25",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=26",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=27",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=28",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=29",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=30",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=31",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=32",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=33",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=34",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=35",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=36",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=37",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=38",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=39",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=40",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=41",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=42",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=43",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=44",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=45",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=46",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=47",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=48",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=49",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://archive.org/about?id=50",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=51",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=52",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=53",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=54",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=55",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=56",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=57",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=58",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=59",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=60",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=61",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=62",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=63",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=64",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=65",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=66",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=67",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=68",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=69",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=70",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=71",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=72",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=73",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=74",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=75",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=76",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=77",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=78",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=79",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=80",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=81",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://archive.org/about?id=82",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=83",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=84",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=85",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=86",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=87",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=88",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=89",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=90",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=91",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=92",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=93",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=94",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=95",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=96",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=97",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=98",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=99",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=100",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=101",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=102",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=103",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=104",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=105",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=106",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=107",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=108",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=109",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=110",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=111",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=112",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=113",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://archive.org/about?id=114",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=115",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=116",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=117",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=118",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=119",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=120",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=121",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=122",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=123",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=124",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=125",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=126",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=127",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=128",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=129",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=130",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=131",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=132",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=133",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=134",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=135",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=136",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=137",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=138",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=139",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=140",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=141",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=142",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=143",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=144",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=145",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://archive.org/about?id=146",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=147",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=148",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=149",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=150",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=151",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=152",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=153",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=154",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=155",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=156",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=157",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=158",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=159",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=160",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=161",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=162",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=163",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=164",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=165",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=166",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=167",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=168",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=169",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=170",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=171",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=172",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=173",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=174",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=175",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=176",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=177",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://archive.org/about?id=178",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=179",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=180",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=181",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=182",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=183",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=184",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=185",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=186",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=187",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=188",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=189",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=190",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=191",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=192",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=193",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=194",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=195",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=196",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=197",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=198",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=199",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=200",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=201",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=202",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=203",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=204",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=205",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=206",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=207",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=208",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=209",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://archive.org/about?id=210",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=211",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=212",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=213",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=214",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=215",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=216",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=217",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=218",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=219",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=220",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=221",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=222",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=223",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=224",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=225",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=226",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=227",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=228",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=229",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=230",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=231",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=232",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=233",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=234",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=235",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=236",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=237",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=238",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=239",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=240",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=241",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://archive.org/about?id=242",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=243",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=244",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=245",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=246",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=247",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=248",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=249",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=250",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=251",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=252",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=253",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=254",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=255",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=256",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=257",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=258",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=259",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=260",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=261",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=262",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=263",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=264",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=265",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=266",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=267",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=268",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=269",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=270",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=271",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=272",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=273",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://archive.org/about?id=274",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=275",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=276",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=277",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=278",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=279",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=280",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=281",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=282",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=283",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=284",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=285",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=286",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=287",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=288",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=289",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=290",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=291",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=292",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=293",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=294",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=295",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=296",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=297",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=298",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=299",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=300",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=301",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=302",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=303",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=304",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=305",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://archive.org/about?id=306",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=307",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=308",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=309",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=310",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=311",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=312",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=313",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=314",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=315",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=316",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=317",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=318",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=319",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=320",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=321",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=322",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=323",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=324",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=325",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=326",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=327",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=328",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=329",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=330",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=331",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=332",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=333",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=334",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=335",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=336",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=337",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://archive.org/about?id=338",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=339",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=340",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=341",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=342",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=343",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=344",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=345",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=346",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=347",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=348",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=349",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=350",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=351",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=352",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=353",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=354",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=355",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=356",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=357",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=358",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=359",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=360",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=361",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=362",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=363",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=364",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=365",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=366",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=367",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=368",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=369",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://archive.org/about?id=370",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=371",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=372",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=373",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=374",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=375",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=376",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=377",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=378",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=379",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=380",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=381",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=382",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=383",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=384",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=385",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=386",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=387",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=388",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=389",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=390",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=391",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=392",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=393",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=394",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=395",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=396",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=397",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=398",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=399",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=400",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=401",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://archive.org/about?id=402",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=403",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=404",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=405",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=406",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=407",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=408",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=409",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=410",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=411",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=412",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=413",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=414",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=415",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=416",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=417",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=418",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=419",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=420",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=421",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=422",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=423",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=424",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=425",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=426",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=427",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=428",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=429",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=430",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=431",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=432",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=433",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://archive.org/about?id=434",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=435",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=436",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=437",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=438",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=439",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=440",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=441",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=442",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=443",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=444",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=445",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=446",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=447",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=448",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=449",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=450",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=451",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=452",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=453",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=454",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=455",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=456",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=457",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=458",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=459",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=460",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=461",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=462",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=463",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=464",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=465",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://archive.org/about?id=466",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=467",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=468",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=469",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=470",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=471",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=472",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=473",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=474",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=475",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=476",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=477",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=478",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=479",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=480",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=481",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=482",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=483",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=484",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=485",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=486",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=487",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=488",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=489",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=490",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=491",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=492",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=493",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=494",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=495",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=496",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=497",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://archive.org/about?id=498",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=499",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=500",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=501",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=502",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=503",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=504",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=505",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=506",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=507",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=508",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=509",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=510",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=511",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=512",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=513",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=514",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=515",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=516",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=517",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=518",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=519",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=520",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=521",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=522",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=523",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=524",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=525",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=526",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=527",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=528",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=529",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://archive.org/about?id=530",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=531",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=532",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=533",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=534",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=535",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=536",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=537",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=538",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=539",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=540",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=541",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=542",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=543",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=544",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=545",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=546",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=547",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=548",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=549",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=550",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=551",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=552",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=553",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=554",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=555",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=556",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=557",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=558",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=559",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=560",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=561",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://archive.org/about?id=562",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=563",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=564",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=565",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=566",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=567",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=568",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=569",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=570",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=571",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=572",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=573",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=574",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=575",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=576",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=577",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=578",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=579",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=580",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=581",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=582",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=583",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=584",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=585",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=586",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=587",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=588",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=589",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=590",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=591",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=592",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=593",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://archive.org/about?id=594",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=595",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=596",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=597",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=598",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=599",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=600",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=601",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=602",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=603",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=604",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=605",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=606",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=607",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=608",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=609",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=610",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=611",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=612",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=613",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=614",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=615",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=616",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=617",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=618",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=619",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=620",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=621",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=622",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=623",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=624",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=625",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://archive.org/about?id=626",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=627",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=628",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=629",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=630",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=631",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=632",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=633",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=634",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=635",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=636",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=637",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=638",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=639",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=640",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=641",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=642",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=643",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=644",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=645",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=646",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=647",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=648",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=649",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=650",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=651",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=652",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=653",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=654",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=655",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=656",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=657",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://archive.org/about?id=658",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=659",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=660",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=661",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=662",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=663",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=664",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=665",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=666",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=667",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=668",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=669",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=670",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=671",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=672",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=673",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=674",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=675",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=676",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=677",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=678",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=679",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=680",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=681",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=682",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=683",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=684",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=685",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=686",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=687",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=688",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=689",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://archive.org/about?id=690",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=691",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=692",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=693",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=694",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=695",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=696",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=697",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=698",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=699",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=700",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=701",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=702",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=703",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=704",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=705",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=706",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=707",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=708",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=709",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=710",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=711",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=712",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=713",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=714",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=715",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=716",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=717",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=718",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=719",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=720",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=721",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://archive.org/about?id=722",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=723",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=724",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=725",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=726",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=727",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=728",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=729",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=730",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=731",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=732",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=733",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=734",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=735",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=736",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=737",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=738",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=739",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=740",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=741",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=742",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=743",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=744",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=745",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=746",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=747",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=748",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=749",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=750",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=751",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=752",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=753",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://archive.org/about?id=754",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=755",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=756",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=757",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=758",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=759",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=760",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=761",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=762",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=763",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=764",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=765",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=766",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=767",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=768",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=769",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=770",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=771",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=772",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=773",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=774",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=775",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=776",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=777",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=778",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=779",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=780",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=781",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=782",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=783",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=784",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=785",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://archive.org/about?id=786",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=787",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=788",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=789",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=790",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=791",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=792",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=793",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=794",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=795",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=796",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=797",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=798",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=799",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=800",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=801",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=802",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=803",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=804",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=805",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=806",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=807",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=808",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=809",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=810",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=811",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=812",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=813",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=814",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=815",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=816",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=817",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://archive.org/about?id=818",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=819",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=820",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=821",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=822",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=823",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=824",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=825",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=826",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=827",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=828",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=829",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=830",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=831",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=832",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=833",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=834",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=835",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=836",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=837",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=838",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=839",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=840",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=841",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=842",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://github.com/golang/go?id=843",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=844",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=845",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=846",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=847",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=848",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=849",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://archive.org/about?id=850",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=851",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=852",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=853",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=854",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=855",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=856",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=857",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=858",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=859",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=860",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=861",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=862",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=863",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=864",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=865",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=866",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=867",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=868",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=869",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=870",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=871",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=872",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=873",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=874",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://github.com/golang/go?id=875",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=876",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=877",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=878",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=879",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=880",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=881",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://archive.org/about?id=882",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=883",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=884",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=885",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=886",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=887",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=888",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=889",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=890",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=891",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=892",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=893",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=894",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=895",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=896",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=897",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=898",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=899",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=900",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=901",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=902",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=903",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=904",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=905",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=906",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://github.com/golang/go?id=907",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=908",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=909",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=910",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=911",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=912",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=913",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://archive.org/about?id=914",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=915",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=916",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=917",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=918",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=919",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=920",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=921",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=922",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=923",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=924",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=925",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=926",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=927",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=928",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=929",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=930",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=931",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=932",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=933",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=934",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=935",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=936",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=937",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=938",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://github.com/golang/go?id=939",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=940",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124000"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=941",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124100"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=942",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=943",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=944",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124400"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=945",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124500"
+  },
+  {
+    "url": "https://archive.org/about?id=946",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124600"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=947",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124700"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=948",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124800"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=949",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419124900"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=950",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125000"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=951",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125100"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=952",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125200"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=953",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125300"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=954",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125400"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=955",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125500"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=956",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125600"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=957",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125700"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=958",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125800"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=959",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419125900"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=960",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120000"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=961",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=962",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=963",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=964",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=965",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=966",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120600"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=967",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120700"
+  },
+  {
+    "url": "https://github.com/facebook/react?id=968",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120800"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode?id=969",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419120900"
+  },
+  {
+    "url": "https://github.com/duckdb/duckdb?id=970",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121000"
+  },
+  {
+    "url": "https://github.com/golang/go?id=971",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121100"
+  },
+  {
+    "url": "https://github.com/python/cpython?id=972",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121200"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404?id=973",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121300"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview?id=974",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121400"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?id=975",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121500"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?id=976",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121600"
+  },
+  {
+    "url": "https://archive.org/details/web-preservation?id=977",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121700"
+  },
+  {
+    "url": "https://archive.org/about?id=978",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121800"
+  },
+  {
+    "url": "https://archive.org/projects/wayback-machine?id=979",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419121900"
+  },
+  {
+    "url": "https://archive.org/details/common-crawl-dataset?id=980",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122000"
+  },
+  {
+    "url": "https://www.w3.org/TR/html52/?id=981",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122100"
+  },
+  {
+    "url": "https://www.w3.org/Protocols/?id=982",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122200"
+  },
+  {
+    "url": "https://www.w3.org/Architecture/?id=983",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122300"
+  },
+  {
+    "url": "https://www.w3.org/DesignIssues/?id=984",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122400"
+  },
+  {
+    "url": "https://stanford.edu/dept/news?id=985",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122500"
+  },
+  {
+    "url": "https://stanford.edu/research/libraries?id=986",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122600"
+  },
+  {
+    "url": "https://stanford.edu/academics/computer-science?id=987",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122700"
+  },
+  {
+    "url": "https://stanford.edu/about/history?id=988",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122800"
+  },
+  {
+    "url": "https://mit.edu/research/ai-lab?id=989",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419122900"
+  },
+  {
+    "url": "https://mit.edu/education/open-courseware?id=990",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123000"
+  },
+  {
+    "url": "https://mit.edu/news/2018/digital-archives?id=991",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123100"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Link_rot?id=992",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Web_archival?id=993",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123300"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hyperlink?id=994",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123400"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Digital_preservation?id=995",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123500"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Common_Crawl?id=996",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123600"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Archive?id=997",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123700"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/HTTP_404?id=998",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123800"
+  },
+  {
+    "url": "https://github.com/torvalds/linux?id=999",
+    "crawl_year": 2018,
+    "crawl_id": "CC-MAIN-2018-17",
+    "fetch_time": "20180419123900"
+  }
+]
