@@ -1,9 +1,9 @@
 import React from "react";
-import { Activity, Search, ShieldAlert, Download, RefreshCw } from "lucide-react";
+import { Activity, Search, ShieldAlert, Download, RefreshCw, Compass } from "lucide-react";
 
 interface NavbarProps {
-  activeTab: "overview" | "explorer" | "inspector";
-  setActiveTab: (tab: "overview" | "explorer" | "inspector") => void;
+  activeTab: "overview" | "explorer" | "tracker" | "inspector";
+  setActiveTab: (tab: "overview" | "explorer" | "tracker" | "inspector") => void;
   onOpenExport: () => void;
   onRefreshData: () => void;
   isRefreshing: boolean;
@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <nav className="flex items-center bg-slate-950 p-1 rounded-xl border border-slate-800/80 shadow-inner">
           <button
             onClick={() => setActiveTab("overview")}
-            className={`flex items-center gap-2 px-4 py-2 text-xs font-medium rounded-lg transition-all ${
+            className={`flex items-center gap-2 px-3.5 py-2 text-xs font-medium rounded-lg transition-all ${
               activeTab === "overview"
                 ? "bg-slate-800 text-cyan-300 shadow-sm border border-slate-700/50"
                 : "text-slate-400 hover:text-slate-200"
@@ -50,7 +50,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
           <button
             onClick={() => setActiveTab("explorer")}
-            className={`flex items-center gap-2 px-4 py-2 text-xs font-medium rounded-lg transition-all ${
+            className={`flex items-center gap-2 px-3.5 py-2 text-xs font-medium rounded-lg transition-all ${
               activeTab === "explorer"
                 ? "bg-slate-800 text-cyan-300 shadow-sm border border-slate-700/50"
                 : "text-slate-400 hover:text-slate-200"
@@ -60,8 +60,19 @@ export const Navbar: React.FC<NavbarProps> = ({
             URL Explorer
           </button>
           <button
+            onClick={() => setActiveTab("tracker")}
+            className={`flex items-center gap-2 px-3.5 py-2 text-xs font-medium rounded-lg transition-all ${
+              activeTab === "tracker"
+                ? "bg-slate-800 text-cyan-300 shadow-sm border border-slate-700/50"
+                : "text-slate-400 hover:text-slate-200"
+            }`}
+          >
+            <Compass className="w-3.5 h-3.5" />
+            URL Tracker (Crawl & Wiki)
+          </button>
+          <button
             onClick={() => setActiveTab("inspector")}
-            className={`flex items-center gap-2 px-4 py-2 text-xs font-medium rounded-lg transition-all ${
+            className={`flex items-center gap-2 px-3.5 py-2 text-xs font-medium rounded-lg transition-all ${
               activeTab === "inspector"
                 ? "bg-slate-800 text-cyan-300 shadow-sm border border-slate-700/50"
                 : "text-slate-400 hover:text-slate-200"

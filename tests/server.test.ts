@@ -168,4 +168,80 @@ test.describe("Phase 4 API Server Endpoints", () => {
     };
     expect(classifyUrlRotStatus(alwaysAlive, cohortYears)).toBe(false);
   });
+
+  test("POST /api/track tracks multiple URLs across Common Crawl & Wikipedia", async ({
+    request,
+  }) => {
+    const response = await request.post(`${baseUrl}/api/track`, {
+      data: {
+        urls: [
+          "https://archive.org",
+          "https://w3.org/TR/html52/",
+        ],
+        options: {
+          checkLive: false,
+          checkWayback: false,
+        },
+      },
+    });
+
+    expect(response.status()).toBe(200);
+    const body = await response.json();
+    expect(body.summary.totalUrls).toBe(2);
+    expect(body.results).toHaveLength(2);
+
+    const firstResult = body.results[0];
+    expect(firstResult.domain).toBe("archive.org");
+    expect(firstResult.wikipedia).toBeDefined();
+    expect(firstResult.commonCrawl).toBeDefined();
+    expect(firstResult.summary).toBeDefined();
+  });
+
+  test("GET /api/wikipedia returns Wikipedia external link citations", async ({
+    request,
+  }) => {
+    const response = await request.get(`${baseUrl}/api/wikipedia?url=https://archive.org&limit=5`);
+    expect(response.status()).toBe(200);
+
+    const body = await response.json();
+    expect(body.url).toBe("https://archive.org");
+    expect(body.isCitedOnWikipedia).toBe(true);
+    expect(body.totalCitations).toBeGreaterThan(0);
+    expect(body.wikipediaSearchUrl).toContain("Special:LinkSearch");
+  });
+
+  test("GET /api/cohorts returns available cohorts catalog and presets", async ({
+    request,
+  }) => {
+    const response = await request.get(`${baseUrl}/api/cohorts`);
+    expect(response.status()).toBe(200);
+
+    const body = await response.json();
+    expect(body.availableCohorts.length).toBeGreaterThanOrEqual(12);
+    expect(body.presets.length).toBeGreaterThanOrEqual(4);
+    expect(body.earliestYear).toBe(2013);
+    expect(body.latestYear).toBe(2025);
+  });
+
+  test("POST /api/track supports configurable startYear (e.g. 2013)", async ({
+    request,
+  }) => {
+    const response = await request.post(`${baseUrl}/api/track`, {
+      data: {
+        urls: ["https://archive.org"],
+        startYear: 2013,
+        stepYears: 3,
+        options: {
+          checkLive: false,
+          checkWayback: false,
+        },
+      },
+    });
+
+    expect(response.status()).toBe(200);
+    const body = await response.json();
+    expect(body.cohortsQueried.length).toBe(5);
+    expect(body.cohortsQueried[0].year).toBe(2013);
+    expect(body.results[0].commonCrawl.cohorts[2013]).toBeDefined();
+  });
 });

@@ -3,11 +3,30 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  ALL_COMMON_CRAWL_COHORTS,
+  COHORT_PRESETS,
+  CRAWL_COHORTS,
+  resolveCohorts,
+  type CohortConfig,
+  type CohortPreset,
+} from "./crawler.js";
+import {
   analyzeCrossCohortPersistence,
   type AnalysisResult,
   type HistoricalUrlAnalysis,
 } from "./analyzer.js";
 import { inspectUrl, type UrlInspectionReport } from "./inspector.js";
+import {
+  trackUrl,
+  trackMultipleUrls,
+  type BatchTrackOptions,
+  type BatchTrackResponse,
+  type TrackedUrlResult,
+} from "./url-tracker.js";
+import {
+  searchWikipediaUrlUsage,
+  type WikipediaTrackingResult,
+} from "./wikipedia-client.js";
 
 export interface TldMetric {
   tld: string;
@@ -255,13 +274,115 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Re-trigger Cross-Cohort Analysis
+      // Available Common Crawl Cohorts & Presets Catalog
+      if (pathname === "/api/cohorts" && req.method === "GET") {
+        sendJson(res, 200, {
+          availableCohorts: ALL_COMMON_CRAWL_COHORTS,
+          presets: COHORT_PRESETS,
+          currentCohorts: CRAWL_COHORTS,
+          earliestYear: 2013,
+          latestYear: 2025,
+        });
+        return;
+      }
+
+      // Track URL(s) across Common Crawl and Wikipedia
+      if (pathname === "/api/track") {
+        let urlsToTrack: string[] = [];
+        let options: BatchTrackOptions = {};
+
+        if (req.method === "POST") {
+          const body = await parseRequestBody<{
+            urls?: string[] | string;
+            url?: string;
+            options?: BatchTrackOptions;
+            startYear?: number;
+            endYear?: number;
+            stepYears?: number;
+            cohortYears?: number[];
+            cohorts?: CohortConfig[];
+          }>(req);
+
+          if (Array.isArray(body.urls)) {
+            urlsToTrack = body.urls;
+          } else if (typeof body.urls === "string") {
+            urlsToTrack = body.urls.split(/[\r\n,]+/).map((u) => u.trim()).filter(Boolean);
+          } else if (body.url) {
+            urlsToTrack = [body.url];
+          }
+
+          options = {
+            ...(body.options || {}),
+            ...(body.startYear ? { startYear: body.startYear } : {}),
+            ...(body.endYear ? { endYear: body.endYear } : {}),
+            ...(body.stepYears ? { stepYears: body.stepYears } : {}),
+            ...(body.cohortYears ? { cohortYears: body.cohortYears } : {}),
+            ...(body.cohorts ? { cohorts: body.cohorts } : {}),
+          };
+        } else if (req.method === "GET") {
+          const queryUrl = reqUrl.searchParams.get("url");
+          if (queryUrl) {
+            urlsToTrack = queryUrl.split(/[\r\n,]+/).map((u) => u.trim()).filter(Boolean);
+          }
+          const startYear = reqUrl.searchParams.get("startYear");
+          const endYear = reqUrl.searchParams.get("endYear");
+          const stepYears = reqUrl.searchParams.get("stepYears");
+          const cohortYearsParam = reqUrl.searchParams.get("cohortYears");
+
+          if (startYear) options.startYear = Number(startYear);
+          if (endYear) options.endYear = Number(endYear);
+          if (stepYears) options.stepYears = Number(stepYears);
+          if (cohortYearsParam) {
+            options.cohortYears = cohortYearsParam.split(",").map((y) => Number(y.trim())).filter(Boolean);
+          }
+        }
+
+        if (urlsToTrack.length === 0) {
+          sendError(res, 400, "Missing required query param 'url' or POST body with 'urls'");
+          return;
+        }
+
+        const trackedData: BatchTrackResponse = await trackMultipleUrls(urlsToTrack, options);
+        sendJson(res, 200, trackedData);
+        return;
+      }
+
+      // Dedicated Wikipedia Link Search
+      if (pathname === "/api/wikipedia" && (req.method === "GET" || req.method === "POST")) {
+        let targetUrl = reqUrl.searchParams.get("url");
+        const limit = Number(reqUrl.searchParams.get("limit")) || 20;
+
+        if (req.method === "POST") {
+          const body = await parseRequestBody<{ url?: string; limit?: number }>(req);
+          if (body.url) targetUrl = body.url;
+        }
+
+        if (!targetUrl) {
+          sendError(res, 400, "Missing required query param 'url'");
+          return;
+        }
+
+        const wikiResult: WikipediaTrackingResult = await searchWikipediaUrlUsage(targetUrl, limit);
+        sendJson(res, 200, wikiResult);
+        return;
+      }
+
+      // Re-trigger Cross-Cohort Analysis with Configurable Cohorts
       if (pathname === "/api/reanalyze" && req.method === "POST") {
         console.log("[Server] Re-analysis requested via API...");
+        const body = await parseRequestBody<{
+          startYear?: number;
+          endYear?: number;
+          stepYears?: number;
+          cohortYears?: number[];
+          cohorts?: CohortConfig[];
+        }>(req);
+
         const newAnalysis = await analyzeCrossCohortPersistence(
           "historical_sample.json",
           "link_rot_analysis.json",
-          true
+          true,
+          body
         );
         sendJson(res, 200, { message: "Re-analysis complete", summary: newAnalysis.summary });
         return;
@@ -328,6 +449,10 @@ export async function startServer(port = PORT): Promise<http.Server> {
       console.log(`  - GET  http://localhost:${port}/api/tlds`);
       console.log(`  - GET  http://localhost:${port}/api/inspect?url=https://example.com`);
       console.log(`  - POST http://localhost:${port}/api/inspect`);
+      console.log(`  - GET  http://localhost:${port}/api/cohorts`);
+      console.log(`  - GET  http://localhost:${port}/api/track?url=https://example.com&startYear=2013`);
+      console.log(`  - POST http://localhost:${port}/api/track`);
+      console.log(`  - GET  http://localhost:${port}/api/wikipedia?url=https://archive.org`);
       console.log(`  - POST http://localhost:${port}/api/reanalyze`);
       resolve(server);
     });

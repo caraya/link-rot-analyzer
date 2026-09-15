@@ -8,11 +8,12 @@ import { StatusDistributionChart } from "./components/StatusDistributionChart.js
 import { TldSurvivalChart } from "./components/TldSurvivalChart.js";
 import { UrlExplorerTable } from "./components/UrlExplorerTable.js";
 import { UrlInspector } from "./components/UrlInspector.js";
+import { UrlTracker } from "./components/UrlTracker.js";
 import { ExportModal } from "./components/ExportModal.js";
 import { Loader2, AlertCircle, RefreshCw } from "lucide-react";
 
 export const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<"overview" | "explorer" | "inspector">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "explorer" | "tracker" | "inspector">("overview");
   const [summaryData, setSummaryData] = useState<SummaryResponse | null>(null);
   const [allUrls, setAllUrls] = useState<HistoricalUrlAnalysis[]>([]);
   const [loading, setLoading] = useState(true);
@@ -155,6 +156,11 @@ export const App: React.FC = () => {
                 onInspectUrl={handleInspectUrl}
                 cohortYears={summaryData.summary.cohortYears}
               />
+            )}
+
+            {/* URL Tracker (Common Crawl & Wikipedia) Tab */}
+            {activeTab === "tracker" && (
+              <UrlTracker onInspectUrl={handleInspectUrl} />
             )}
 
             {/* URL Inspector & Wayback Machine Tab */}

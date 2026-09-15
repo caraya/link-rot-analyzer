@@ -12,6 +12,8 @@
     "inspect": "npx tsx src/inspector.ts",
     "verify-live": "npx tsx src/live-verifier.ts",
     "wayback": "npx tsx src/wayback-client.ts",
+    "track": "npx tsx src/url-tracker.ts",
+    "wiki": "npx tsx src/wikipedia-client.ts",
     "server": "npx tsx src/server.ts",
     "start": "npx tsx src/server.ts",
     "test": "playwright test",

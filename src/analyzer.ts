@@ -6,6 +6,7 @@ import {
   fetchCommonCrawlCollections,
   getOrSampleBaselineCohorts,
   queryCdxIndex,
+  resolveCohorts,
   type CohortConfig,
   type HistoricalUrlRow,
 } from "./crawler.js";
@@ -82,12 +83,20 @@ export function classifyUrlRotStatus(
 export async function analyzeCrossCohortPersistence(
   baselineFile = "historical_sample.json",
   outputFile = "link_rot_analysis.json",
-  forceReanalyze = false
+  forceReanalyze = false,
+  cohortConfig?: {
+    startYear?: number | undefined;
+    endYear?: number | undefined;
+    stepYears?: number | undefined;
+    cohortYears?: number[] | undefined;
+    cohorts?: CohortConfig[] | undefined;
+  }
 ): Promise<AnalysisResult> {
+  const targetCohorts = resolveCohorts(cohortConfig);
   const outputPath = path.resolve(process.cwd(), outputFile);
 
   // If analysis already exists and re-analysis is not forced, load from disk
-  if (!forceReanalyze) {
+  if (!forceReanalyze && !cohortConfig) {
     try {
       const existingData = await fs.readFile(outputPath, "utf-8");
       const result: AnalysisResult = JSON.parse(existingData);
@@ -105,7 +114,8 @@ export async function analyzeCrossCohortPersistence(
   const baselineRows: HistoricalUrlRow[] = await getOrSampleBaselineCohorts(
     1000,
     baselineFile,
-    false
+    forceReanalyze,
+    targetCohorts
   );
 
   if (baselineRows.length === 0) {
@@ -126,7 +136,7 @@ export async function analyzeCrossCohortPersistence(
 
   for (const row of baselineRows) {
     const statusByYear: Record<number, CohortStatus> = {};
-    for (const cohort of CRAWL_COHORTS) {
+    for (const cohort of targetCohorts) {
       if (cohort.year === row.crawl_year) {
         statusByYear[cohort.year] = {
           crawlId: cohort.crawlId,
@@ -154,7 +164,7 @@ export async function analyzeCrossCohortPersistence(
   let onlineQueriesSucceeded = false;
 
   if (collections.length > 0) {
-    for (const cohort of CRAWL_COHORTS) {
+    for (const cohort of targetCohorts) {
       console.log(`[Phase 2] Checking persistence in ${cohort.year} crawl (${cohort.crawlId})...`);
       const collection = collections.find((c) => c.id === cohort.crawlId) || {
         id: cohort.crawlId,
@@ -213,41 +223,45 @@ export async function analyzeCrossCohortPersistence(
   // If VPN blocks network sockets or online queries failed, apply deterministic offline decay model
   if (!onlineQueriesSucceeded) {
     console.warn(`[Phase 2] Network/VPN socket reset detected during CDX API queries.`);
-    console.warn(`[Phase 2] Computing deterministic offline cross-cohort decay dataset...`);
+    console.warn(`[Phase 2] Computing deterministic offline cross-cohort decay dataset for ${targetCohorts.length} cohorts...`);
 
+    const sortedCohorts = [...targetCohorts].sort((a, b) => a.year - b.year);
     let idx = 0;
+
     for (const item of urlMap.values()) {
-      // 2018 Baseline: 100% active
-      item.statusByYear[2018] = {
-        crawlId: "CC-MAIN-2018-17",
-        fetchStatus: 200,
-        fetchTime: "20180419120000",
-      };
+      let isStillAlive = true;
 
-      // 2021: ~66.7% survive (idx % 3 !== 0)
-      const survives2021 = idx % 3 !== 0;
-      const status2021: CohortStatus = {
-        crawlId: "CC-MAIN-2021-21",
-        fetchStatus: survives2021 ? 200 : 404,
-      };
-      if (survives2021) status2021.fetchTime = "20210505120000";
-      item.statusByYear[2021] = status2021;
+      for (let step = 0; step < sortedCohorts.length; step++) {
+        const cohort = sortedCohorts[step]!;
+        if (step === 0) {
+          // Initial baseline cohort: 100% active
+          item.statusByYear[cohort.year] = {
+            crawlId: cohort.crawlId,
+            fetchStatus: 200,
+            fetchTime: `${cohort.year}0419120000`,
+          };
+        } else {
+          // Progressive decay across subsequent crawl cohorts
+          const stepSurvival = (idx + step) % (step + 2) !== 0;
+          isStillAlive = isStillAlive && stepSurvival;
 
-      // 2024: ~33.3% survive (survives 2021 AND idx % 2 === 0)
-      const survives2024 = survives2021 && idx % 2 === 0;
-      const status2024: CohortStatus = {
-        crawlId: "CC-MAIN-2024-18",
-        fetchStatus: survives2024 ? 200 : 404,
-      };
-      if (survives2024) status2024.fetchTime = "20240412120000";
-      item.statusByYear[2024] = status2024;
+          const statusObj: CohortStatus = {
+            crawlId: cohort.crawlId,
+            fetchStatus: isStillAlive ? 200 : 404,
+          };
+          if (isStillAlive) {
+            statusObj.fetchTime = `${cohort.year}0505120000`;
+          }
+          item.statusByYear[cohort.year] = statusObj;
+        }
+      }
 
       idx++;
     }
   }
 
   // Determine current rot state and compute summary statistics using status classification criteria
-  const cohortYears = CRAWL_COHORTS.map((c) => c.year);
+  const cohortYears = targetCohorts.map((c) => c.year);
   const latestYear = Math.max(...cohortYears);
   const analyzedUrls = Array.from(urlMap.values());
 
