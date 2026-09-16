@@ -154,7 +154,16 @@ async function parseRequestBody<T>(req: http.IncomingMessage): Promise<T> {
   });
 }
 
-export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
+let cachedAnalysisResult: AnalysisResult | null = null;
+
+export async function getAnalysisDataLazy(forceReload = false): Promise<AnalysisResult> {
+  if (!cachedAnalysisResult || forceReload) {
+    cachedAnalysisResult = await analyzeCrossCohortPersistence();
+  }
+  return cachedAnalysisResult;
+}
+
+export function createServer(getAnalysisData: (forceReload?: boolean) => Promise<AnalysisResult> = getAnalysisDataLazy) {
   return http.createServer(async (req, res) => {
     setCorsHeaders(res);
 
@@ -174,7 +183,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Overall Analysis Summary & High-Level Metrics
+      // Overall Analysis Summary & High-Level Metrics (Lazy-loaded)
       if ((pathname === "/api/summary" || pathname === "/api/analysis") && req.method === "GET") {
         const analysis = await getAnalysisData();
         const tldMetrics = computeTldMetrics(analysis.urls);
@@ -188,7 +197,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // TLD Metrics
+      // TLD Metrics (Lazy-loaded)
       if (pathname === "/api/tlds" && req.method === "GET") {
         const analysis = await getAnalysisData();
         const tldMetrics = computeTldMetrics(analysis.urls);
@@ -196,7 +205,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Domain Metrics
+      // Domain Metrics (Lazy-loaded)
       if (pathname === "/api/domains" && req.method === "GET") {
         const analysis = await getAnalysisData();
         const domainMetrics = computeDomainMetrics(analysis.urls);
@@ -205,7 +214,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Paginated & Filterable URLs Explorer
+      // Paginated & Filterable URLs Explorer (Lazy-loaded)
       if (pathname === "/api/urls" && req.method === "GET") {
         const analysis = await getAnalysisData();
 
@@ -253,7 +262,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Single-URL Live HTTP & Wayback Machine Inspection
+      // Single-URL Live HTTP & Wayback Machine Inspection (Independent)
       if (pathname === "/api/inspect") {
         let targetUrl = reqUrl.searchParams.get("url");
 
@@ -274,7 +283,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Available Common Crawl Cohorts & Presets Catalog
+      // Available Common Crawl Cohorts & Presets Catalog (Independent)
       if (pathname === "/api/cohorts" && req.method === "GET") {
         sendJson(res, 200, {
           availableCohorts: ALL_COMMON_CRAWL_COHORTS,
@@ -286,7 +295,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Track URL(s) across Common Crawl and Wikipedia
+      // Track URL(s) across Common Crawl and Wikipedia (Independent)
       if (pathname === "/api/track") {
         let urlsToTrack: string[] = [];
         let options: BatchTrackOptions = {};
@@ -347,7 +356,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
         return;
       }
 
-      // Dedicated Wikipedia Link Search
+      // Dedicated Wikipedia Link Search (Independent)
       if (pathname === "/api/wikipedia" && (req.method === "GET" || req.method === "POST")) {
         let targetUrl = reqUrl.searchParams.get("url");
         const limit = Number(reqUrl.searchParams.get("limit")) || 20;
@@ -384,6 +393,7 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
           true,
           body
         );
+        cachedAnalysisResult = newAnalysis;
         sendJson(res, 200, { message: "Re-analysis complete", summary: newAnalysis.summary });
         return;
       }
@@ -435,25 +445,18 @@ export function createServer(getAnalysisData: () => Promise<AnalysisResult>) {
 }
 
 export async function startServer(port = PORT): Promise<http.Server> {
-  const getAnalysisData = () => analyzeCrossCohortPersistence();
-  const server = createServer(getAnalysisData);
+  const server = createServer(getAnalysisDataLazy);
 
   return new Promise((resolve) => {
     server.listen(port, () => {
       console.log(`[Phase 4] Link Rot Analyzer Local API Server running on http://localhost:${port}`);
-      console.log(`[Phase 4] API Endpoints:`);
-      console.log(`  - GET  http://localhost:${port}/api/health`);
-      console.log(`  - GET  http://localhost:${port}/api/summary`);
-      console.log(`  - GET  http://localhost:${port}/api/urls?page=1&limit=50&status=rotted&search=example`);
-      console.log(`  - GET  http://localhost:${port}/api/domains`);
-      console.log(`  - GET  http://localhost:${port}/api/tlds`);
-      console.log(`  - GET  http://localhost:${port}/api/inspect?url=https://example.com`);
-      console.log(`  - POST http://localhost:${port}/api/inspect`);
-      console.log(`  - GET  http://localhost:${port}/api/cohorts`);
-      console.log(`  - GET  http://localhost:${port}/api/track?url=https://example.com&startYear=2013`);
-      console.log(`  - POST http://localhost:${port}/api/track`);
-      console.log(`  - GET  http://localhost:${port}/api/wikipedia?url=https://archive.org`);
-      console.log(`  - POST http://localhost:${port}/api/reanalyze`);
+      console.log(`[Phase 4] Standalone Operational & Research Endpoints:`);
+      console.log(`  - Health Check: GET http://localhost:${port}/api/health`);
+      console.log(`  - URL Tracker:  POST http://localhost:${port}/api/track (or GET /api/track?url=...)`);
+      console.log(`  - Wikipedia:    GET http://localhost:${port}/api/wikipedia?url=...`);
+      console.log(`  - Inspector:    GET http://localhost:${port}/api/inspect?url=...`);
+      console.log(`  - Macro Stats:  GET http://localhost:${port}/api/summary`);
+      console.log(`  - URL Database: GET http://localhost:${port}/api/urls`);
       resolve(server);
     });
   });

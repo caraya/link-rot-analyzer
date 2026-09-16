@@ -15,12 +15,12 @@ import {
 
 interface UrlExplorerTableProps {
   onInspectUrl: (url: string) => void;
-  cohortYears: number[];
+  cohortYears?: number[] | undefined;
 }
 
 export const UrlExplorerTable: React.FC<UrlExplorerTableProps> = ({
   onInspectUrl,
-  cohortYears,
+  cohortYears = [2018, 2021, 2024],
 }) => {
   const [data, setData] = useState<UrlsResponse | null>(null);
   const [loading, setLoading] = useState(true);

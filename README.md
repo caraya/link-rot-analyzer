@@ -1,19 +1,32 @@
 # Link Rot Analyzer
 
-A tool to quantify, analyze, and track the decay of hyperlinks across historical web crawl snapshots (Common Crawl), real-time live HTTP probing, Internet Archive Wayback Machine preservation records, and Wikipedia external citation references.
+A modular research and auditing platform to quantify, analyze, and track the decay of hyperlinks across historical web crawl snapshots (Common Crawl), real-time live HTTP probing, Internet Archive Wayback Machine preservation records, and Wikipedia external citation references.
+
+> 📖 **Architecture & Deep-Dive**: See [explainer.md](file:///Users/carlos/code/projects-2025/link-rot-analyzer/explainer.md) for a detailed walkthrough of how the system works, data flow diagrams, classification mathematics, and module inter-relationships.
 
 ---
 
-## Features
+## Features & Workspaces
 
-- **Historical Cross-Cohort Analysis**: Evaluates link survival and decay across historical Common Crawl index snapshots (from 2013 to present).
-- **Configurable Crawl Cohorts & Historical Depth**: Choose how far back to evaluate web history (e.g. from 2013 at the dawn of Common Crawl CDX, 10-year decade spans, or custom year ranges and sampling intervals).
-- **Dual-Source URL Tracker**: Input arbitrary URLs via an interactive form or batch API to simultaneously track historical Common Crawl presence and Wikipedia citation references.
-- **Wikipedia Link Rot & Citation Discovery**: Queries the official MediaWiki `exturlusage` API to detect which Wikipedia articles cite any given URL and flag dead link risks.
-- **Targeted Live HTTP Verification**: Probes real-time status (`HEAD`/`GET` with redirect following) to distinguish active link decay from transient historical crawl omissions.
-- **Wayback Machine Research Module**: Queries the Internet Archive Availability & CDX APIs to retrieve preserved snapshot counts, timestamps, and direct fallback links.
-- **Interactive React & D3 Dashboard**: Built with React, Vite, Tailwind CSS, and D3.js to render survival decay curves, status distribution donuts, TLD survival rates, and domain tables.
-- **Data Export**: Export benchmark datasets, tracked URL analyses, and summary statistics to JSON or CSV.
+The application is structured into **independent, decoupled sections** that can each run standalone or within a unified dashboard:
+
+1. **Macro Web Decay Benchmarks (`Overview` & `URL Explorer`)**:
+   - Evaluates link survival and decay across historical Common Crawl index snapshots (from 2013 to present).
+   - D3-powered survival decay curves, status distribution donuts, and TLD persistence bar charts.
+   - Searchable, filterable, and paginated benchmark database.
+   - **Lazy-Loaded**: Macro datasets load on-demand without blocking other tools.
+
+2. **Dual-Source URL Tracker (`URL Tracker`)**:
+   - Input arbitrary URLs via an interactive form or batch API to simultaneously track historical Common Crawl presence and Wikipedia citation references.
+   - **Configurable Crawl Depth**: Choose presets (e.g., 2013 dawn of CDX, 10-year decade, recent 5-year) or customize start years, step intervals, and individual crawl cohorts.
+   - Identifies high-risk links cited on Wikipedia that have failed or decayed.
+
+3. **Targeted URL Inspector & Wayback Client (`URL Inspector`)**:
+   - Single-URL live HTTP status probing (`HEAD`/`GET` with redirect following) to distinguish active link decay from transient historical crawl omissions.
+   - Queries the Internet Archive Availability & CDX APIs for snapshot history and fallback URLs.
+
+4. **Data Export**:
+   - Export benchmark datasets, tracked URL analyses, and summary statistics to JSON or CSV.
 
 ---
 
@@ -29,11 +42,12 @@ link-rot-analyzer/
 │   ├── live-verifier.ts      # Targeted real-time HTTP verification with redirect following
 │   ├── wayback-client.ts     # Internet Archive Availability & CDX API client
 │   ├── inspector.ts          # Single-URL inspection orchestrator
-│   └── server.ts             # Local HTTP REST API server & static asset host
+│   └── server.ts             # Local HTTP REST API server with lazy-loaded datasets
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Navbar.tsx                # App header and tab navigation
+│   │   │   ├── Navbar.tsx                # App header and workspace tab switcher
+│   │   │   ├── MacroOverview.tsx         # Standalone macro research benchmarks & D3 charts view
 │   │   │   ├── SummaryCards.tsx          # Key metrics cards
 │   │   │   ├── SurvivalCurveChart.tsx    # D3 link survival decay curve
 │   │   │   ├── StatusDistributionChart.tsx# D3 status ratio donut chart
@@ -44,7 +58,7 @@ link-rot-analyzer/
 │   │   │   └── ExportModal.tsx           # Dataset and visualization export dialog
 │   │   ├── api.ts            # Frontend API client
 │   │   ├── types.ts          # TypeScript shared data interfaces
-│   │   └── App.tsx            # Root application component
+│   │   └── App.tsx            # Root application with independent workspace routing
 │   └── index.html
 ├── tests/
 │   ├── unit-tracker.test.ts  # Unit tests for URL tracker, Wikipedia client, and cohort resolver
@@ -59,7 +73,7 @@ link-rot-analyzer/
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) v18+ or v20+
+- [Node.js](https://nodejs.org/) v24+ or v26+ (Active / Current LTS)
 
 ### Installation
 
@@ -71,50 +85,58 @@ npm install
 
 ### Running the Application
 
-1. **Start the API Server**:
+1. **Start Both Server & Client Concurrently (Recommended)**:
    ```bash
    npm start
+   # or: npm run dev
+   # Starts backend REST API on http://localhost:3000 and Vite UI on http://localhost:5173 concurrently via concurrently
+   ```
+
+2. **Run Backend API Server Only**:
+   ```bash
+   npm run server
    # Server runs at http://localhost:3000
    ```
 
-2. **Start the Frontend (Development Mode with HMR)**:
+3. **Run Client UI Only**:
    ```bash
-   npm run dev
+   npm run client
+   # or: npm run ui
    # Vite development server runs at http://localhost:5173 (proxied to API on :3000)
    ```
 
-3. **Build Frontend for Production**:
+4. **Build Frontend for Production**:
    ```bash
    npm run build:ui
    ```
 
 ---
 
-## CLI Usage
+## Standalone CLI Usage
 
-Run specific modules directly from the command line:
+Every core feature can be run independently directly from the command line:
 
 ```bash
-# 1. Sample baseline URLs from Common Crawl
+# 1. Track URLs across Common Crawl and Wikipedia (Dual-Source Tracker)
+npm run track -- https://archive.org https://www.w3.org/TR/html52/
+
+# 2. Search Wikipedia articles citing a specific URL or domain
+npm run wiki -- https://archive.org
+
+# 3. Comprehensive single-URL inspection (Live HTTP probe + Wayback Machine snapshots)
+npm run inspect -- https://example.com
+
+# 4. Standalone targeted live HTTP status verification
+npm run verify-live -- https://example.com
+
+# 5. Standalone Wayback Machine snapshot availability check
+npm run wayback -- https://example.com
+
+# 6. Sample baseline URLs from Common Crawl index collections
 npm run sample
 
-# 2. Run cross-cohort persistence analysis
+# 7. Run cross-cohort persistence and link decay analysis
 npm run analyze
-
-# 3. Track URLs across Common Crawl and Wikipedia (Dual-Source Tracker)
-npm run track https://archive.org https://www.w3.org/TR/html52/
-
-# 4. Search Wikipedia articles citing a specific URL/domain
-npm run wiki https://archive.org
-
-# 5. Inspect a single URL (Live HTTP status + Wayback Machine snapshots)
-npm run inspect https://example.com
-
-# 6. Verify live HTTP status for a URL
-npm run verify-live https://example.com
-
-# 7. Check Wayback Machine availability
-npm run wayback https://example.com
 ```
 
 ---
@@ -124,15 +146,15 @@ npm run wayback https://example.com
 | Method | Endpoint | Description | Query / Body Parameters |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/api/health` | Health check | None |
-| `GET` | `/api/summary` | Overall analysis summary, TLD metrics, and top domains | None |
-| `GET` | `/api/urls` | Paginated and searchable baseline URL dataset | `page`, `limit`, `status` (`alive`\|`rotted`\|`all`), `cohort`, `search` |
-| `GET` | `/api/domains` | Domain-level survival metrics | `limit` (default: 50) |
-| `GET` | `/api/tlds` | TLD-level survival metrics | None |
-| `GET` | `/api/cohorts` | Available Common Crawl cohorts catalog (2013–2025) and presets | None |
 | `POST` | `/api/track` | Track URLs across Common Crawl cohorts & Wikipedia | `{ urls: string[], startYear?: number, stepYears?: number, cohortYears?: number[], options?: object }` |
 | `GET` | `/api/track` | Track a single URL or comma-separated URLs | `url`, `startYear`, `stepYears`, `cohortYears` |
 | `GET` | `/api/wikipedia` | Search Wikipedia articles linking to a URL or domain | `url`, `limit` (default: 20) |
 | `GET` / `POST` | `/api/inspect` | Targeted live HTTP check & Wayback Machine archive history | `url` |
+| `GET` | `/api/cohorts` | Available Common Crawl cohorts catalog (2013–2025) and presets | None |
+| `GET` | `/api/summary` | Overall macro analysis summary, TLD metrics, and top domains *(lazy-loaded)* | None |
+| `GET` | `/api/urls` | Paginated and searchable baseline URL dataset *(lazy-loaded)* | `page`, `limit`, `status` (`alive`\|`rotted`\|`all`), `cohort`, `search` |
+| `GET` | `/api/domains` | Domain-level survival metrics *(lazy-loaded)* | `limit` (default: 50) |
+| `GET` | `/api/tlds` | TLD-level survival metrics *(lazy-loaded)* | None |
 | `POST` | `/api/reanalyze` | Re-run cross-cohort persistence analysis with custom cohorts | `{ startYear?: number, stepYears?: number, cohortYears?: number[], cohorts?: object[] }` |
 
 ---
